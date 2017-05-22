@@ -41,18 +41,18 @@ def sorted_triples(array)
 end
 
 # Driver code... no modifiques nada de este código 
-#print_odd_indexed_integers([2, 4, 6, 8, 10, 12]) 
+print_odd_indexed_integers([2, 4, 6, 8, 10, 12]) 
 # => 4
 # => 8
 # => 12
 
-#puts odd_integers([3, 4, 7, 9, 10, 16]) == [3, 7, 9]
+puts odd_integers([3, 4, 7, 9, 10, 16]) == [3, 7, 9]
 
-#puts first_under([13, 21, 7, 0, 11, 106], 10) == 7
+puts first_under([13, 21, 7, 0, 11, 106], 10) == 7
 
-#puts add_bang(["hi", "mom"]) == ["hi!", "mom!"]
+puts add_bang(["hi", "mom"]) == ["hi!", "mom!"]
 
-#puts sum([1, 1, 2, 3, 5]) == 12
+puts sum([1, 1, 2, 3, 5]) == 12
 
 words = %w(De esta simple manera se puede reorganizar una oración)  
 p sorted_triples(words) == [["De", "esta", "simple"], ["manera", "puede", "se"], ["oración", "reorganizar", "una"]]
